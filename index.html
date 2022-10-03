@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="picture">
+      <div class="logo">
+        <div class="left"> 
+          <img src="odin-lined.png" alt="logo" class="logo">
+          <h1 style="color: white; font-size: 60px;">ODIN</h1>
+        </div>
+    </div>
+    </div>
+
+    <div class="form">
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h2>This is not a real online service! Feel free to fill this form, submit, repeat and
+            reload as many times as you want. The best part is... nothing will happen.
+          </h2>
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <button type="submit" class="button button-block">Sign Up</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <p>
+              Already have an account?
+              <a href="#">Log in</a>
+          </p>
+        </div>    
+      </div>   
+    </div>
+  </div>
+</body>
+</html>
